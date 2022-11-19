@@ -1,0 +1,1 @@
+rintf("Age is: %X\n", (*ptrToStructure).age);
