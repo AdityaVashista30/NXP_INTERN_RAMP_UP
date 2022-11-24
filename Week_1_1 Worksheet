@@ -1,6 +1,6 @@
 Python Questions:
   1. Create a text file (file 1) and fill it contents with random integers and strings (5000 lines to be filled).
-  Populate strings and integers randomly, but make sure each type consist of minimum 45% of the file . Lngth of each line should be between 15-20 characters
+  Populate strings and integers randomly, but make sure each type consist of minimum 45% of the file . Length of each line should be between 15-20 characters
   Create another file (file 2). In file 2 read data from file 1; Convert integers to hex numbers in 0x format (i.e. 0x1A,0x10 etc); 
   Reverse the strings (i.e. ABC is a boy. -> yob a si CBA. ). 
 
