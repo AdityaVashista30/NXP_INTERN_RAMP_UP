@@ -3,8 +3,7 @@
 
 typedef union Info {
   u_int16_t data;
-  char filler1;
-  char filler2;
+  char filler[4];
 } Info;
 
 typedef struct Obj {
@@ -14,9 +13,10 @@ typedef struct Obj {
 } Obj;
 
 void print_obj(Obj* object) {
-  printf("%d\n", object->data);
-  printf("%s\n", object->str);
-  printf("%d\n", object->bool);
+  printf("object->data %d\n", object->data);
+  printf("object->str %s\n", object->str);
+  printf("object->bool %d\n", object->bool);
+  printf("sizeof(object->data) %d\n", sizeof(object->data));
 }
 
 main() {
