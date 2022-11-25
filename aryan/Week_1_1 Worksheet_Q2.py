@@ -15,6 +15,5 @@ def copy_rec(dirname, cpdirname):
 
 
 if __name__ == "__main__":
-    script, inp_dir = argv
-    os.mkdir("Copy_"+inp_dir+'_2')
-    copy_rec(inp_dir, "Copy_"+inp_dir+'_2')
+    script, inp_dir, out_dir = argv
+    copy_rec(inp_dir, out_dir)
