@@ -1,4 +1,7 @@
 1) Write a program, in which user is asked to choice from 0 to 2 for different tasks. . Choosing 0, will execute a function that would add 2 numbers. Choosing 1, will execute a function 
-that would subtract 2 numbers, Choosing 2, will execute a function that would multiply 2 numbers. In this program instead os use of switch case, use function pointers.
+that would subtract 2 numbers, Choosing 2, will execute a function that would multiply 2 numbers. You have to make this program using function pointer.
 2) Make a structure and initialise its data variables by creating the object of the structure via pointers. Create a 1-D array of this structure of index 2. And then print 
 the values of data variables of the structure.
+3) Make a structure, of int, char, string and union.In union, we have one integer array and character array of 50 index each. Process this function by creating its object via pointers.
+You have to pass the strcuture object to the functions for processing it. For Processing, you have to initialise and print the structure
+
