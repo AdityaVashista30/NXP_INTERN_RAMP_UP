@@ -1,0 +1,21 @@
+Question after 1st session on C:
+  1) Tell values of x,y,z,w
+
+uin16_t addr = 10000; // 0b0010011100010000
+uint8_t a = ((addr>>16) & (0xff)); 
+// 10000>> 16 = x
+// x & (0xff) = y
+
+uint8_t b = (((addr>>8) & (0xff)))
+// 10000>> 8 = z
+// z & (0xff) = w
+
+
+2) write a C program to create a 32 bit number with following user inputs:
+    a) Bits 1-4: Message Id
+    b) Bits 5-10: Source Address
+    c) Bits 11-15: Destination Address
+    d) Bits 20-30: Data/Message
+    All reserved bits must be populated with 1.
+
+3) Write a C program to decode the message unit created in Q.2. to decode message, message id, source address and destination address.

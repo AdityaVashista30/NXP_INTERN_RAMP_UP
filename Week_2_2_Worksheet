@@ -1,0 +1,13 @@
+Q1. Suppose there is a school with 10 sections (A,B,C,….,I,J). The sections which are vowels have 25 students, 
+sections following each vowel have 20 students, sections preceding a vowel have 30 students and all rest sections have 22 students.
+Create a single database for all students in school having their marks in 5 subjects (out of 100) as well as section and roll number.
+
+Q2. Once database is created
+ 	a. print top 5 students of each section based on %
+	b. print top 10 students in all sections based on %
+	c. print top 20 students in each individual subject in all sections
+
+Q3. After this shuffle all the students based on merit  according to division of sections described in Q1. i.e. all the top 25 students should be in section A, 
+next 20 students in section B, and so on. In this new database, topper will be given roll number 1 in section A, and rest as follows.  
+Also store the roll number and class the student was previously in.
+	
