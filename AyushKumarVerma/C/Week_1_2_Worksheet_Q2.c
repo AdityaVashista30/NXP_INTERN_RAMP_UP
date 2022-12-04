@@ -47,7 +47,5 @@ int main()
 
     printNumber(msg_id, src_addr, des_addr, data);
 
-    decodeNumber(final_number);
-
     return 0;
 }
