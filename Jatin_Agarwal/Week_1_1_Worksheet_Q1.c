@@ -21,4 +21,6 @@ int main(){
     printf("Integer value in HEX is %x\n",obj->var1);
     printf("String is %s\n",obj->str);
     printf("Boolean is %d\n",obj->var2);
+
+    return 0;
 }
