@@ -1,7 +1,7 @@
 #include<stdio.h>
 
 
-void main(){
+
 
     int (*fp)(int,int);
     int add(int x,int y){
@@ -14,11 +14,13 @@ void main(){
     int mul(int x,int y){
         return x*y;
     }
-    int choice;
+
+    void main(){
     int x,y;
     printf("Enter two numbers");
     scanf("%d%d",&x,&y);
-
+    
+    int choice;
     printf("Enter \n0. for add\n1. for subtract\n2. for multiply\n");
     scanf("%d",&choice);
 

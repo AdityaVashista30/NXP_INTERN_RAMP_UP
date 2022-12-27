@@ -1,6 +1,7 @@
 #include<stdio.h>
 #include<string.h>
 
+
 void main(){
 
     char msgId[33],sa[7],da[6],data[12];
