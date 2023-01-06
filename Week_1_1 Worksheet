@@ -1,6 +1,6 @@
 Python Questions:
   1. Create a text file (file 1) and fill it contents with random integers and strings (5000 lines to be filled).
-  Populate strings and integers randomly, but make sure each type consist of minimum 45% of the file . Lngth of each line should be between 15-20 characters
+  Populate strings and integers randomly in different lines, but make sure each type of line consist of minimum 45% of the file . Lngth of each line should be between 15-20 characters
   Create another file (file 2). In file 2 read data from file 1; Convert integers to hex numbers in 0x format (i.e. 0x1A,0x10 etc); 
   Reverse the strings (i.e. ABC is a boy. -> yob a si CBA. ). 
 
@@ -8,7 +8,7 @@ Python Questions:
   Also, change the name of all files/folders by adding preffix 'Copy_' and suffix  "__2". Eg: if a file is ABC.txt then copied file should be named Copy_ABC_2.txt 
 
 C Questions:
-  1. Make a user defined structure, which has 3 data values as follows:
+  1. Make a user defined structure, which has 4 data fields as follows:
   a) data variable should occupy space of 4 bytes
   b) data variable cant have range of value greater then 65535.
   c) variable which can store string.
