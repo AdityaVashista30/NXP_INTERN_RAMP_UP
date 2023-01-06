@@ -17,3 +17,19 @@ C Questions:
   Create the Object of this structure. The Object should be created via pointers
   Initialise data values of structure using this object
   and print those data values of structure using same object. Integer values should be printed in HEX format
+  
+  
+  
+  
+  Question after 1st session on C:
+  1) Tell values of x,y,z,w
+  
+uin16_t addr = 10000; // 0b0010011100010000
+uint8_t a = ((addr>>16) & (0xff)); 
+// 10000>> 16 = x
+// x & (0xff) = y
+
+uint8_t b = (((addr>>8) & (0xff)))
+// 10000>> 8 = z
+// z & (0xff) = w
+  
