@@ -1,9 +1,4 @@
-//
-//  main.c
-//  Week_2_1_Worksheet_Q1.c
-//
-//  Created by Rishi  Chhabra on 07/01/23.
-//
+
 
 #include <stdio.h>
 

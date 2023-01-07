@@ -1,12 +1,6 @@
-//
-//  main.c
-//  Week_2_1_Worksheet_Q3.c
-//
-//  Created by Rishi  Chhabra on 07/01/23.
-//
-
 #include <stdio.h>
 #include <stdbool.h>
+#include<stdint.h>
 
 struct command1 {
     uint32_t keyLength;
