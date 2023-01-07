@@ -1,0 +1,20 @@
+//gcc 7.4.0
+
+#include<stdio.h>  
+#include <string.h>  
+struct Demo {
+ int number;
+ char ch;
+ char str[15];
+};
+int main(void)
+{
+    struct Demo *ob;
+    (*ob).number = 7;
+    (*ob).ch = 'M';
+    strcpy((*ob).str,"MS Dhoni");  
+    printf("%x \n",(*ob).number);
+    printf("%c \n",(*ob).ch);
+    printf("%s \n",(*ob).str);
+    return 0;
+}

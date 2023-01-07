@@ -1,0 +1,12 @@
+directory1 = input("Enter your first directory name: ")
+directory2 = input("Enter your second directory name: ")
+
+# first convert all the file name to desire file name while in directory1
+
+for i in *; do mv -- "$i" "copy_${i%.*}_2.txt";
+
+#after that copy contents of 1 directory to another directory
+cp directory1/* directory2/
+
+# let's take an example
+cp desktop/NXP_Assignment/* desktop/NXP/
