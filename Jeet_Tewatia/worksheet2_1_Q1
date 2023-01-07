@@ -1,0 +1,38 @@
+
+
+//gcc 7.4.0
+
+#include<stdio.h>  
+#include <string.h>  
+int add(int a, int b) {
+    return a+b;
+}
+int sub(int a, int b) {
+    return a-b;
+}
+int mul(int a, int b) {
+    return a*b;
+}
+int main(void)
+{
+    printf("Enter your no's: ");
+    int a, b;
+    scanf("%d %d\n", &a, &b);
+    printf("Enter your choice no between 0 to 2: ");
+    int no;
+    scanf("%d\n", &no);
+    int (*fp)(int, int);
+    if(no == 0) {
+        fp = add;
+    }
+    else if(no == 1) {
+        fp = sub;
+    }
+    else {
+        fp = mul;
+    }
+   int ans = (*fp)(a, b);
+    printf("\nResult is %d", ans);
+
+    return 0;
+}

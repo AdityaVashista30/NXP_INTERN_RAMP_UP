@@ -1,0 +1,21 @@
+#include<stdio.h>
+typedef struct  {
+    int roll;
+    char name[10];
+}d1;
+
+int main() {
+    d1 a[3];
+    for(int i = 0; i < 3; i++){
+       
+        int aa;
+        char b[10];
+        scanf("%d",&aa);
+        scanf("%s",&b);
+        a[i].roll = aa;
+        strcpy(a[i].name,b);
+    }
+    for(int i = 0; i < 3; i++) {
+        printf("%d %s\n",a[i].roll, a[i].name);
+    }
+}
