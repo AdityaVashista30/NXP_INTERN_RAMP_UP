@@ -1,0 +1,18 @@
+1) Write a program, in which user is asked to choice from 0 to 2 for different tasks. . 
+Choosing 0, will execute a function that would add 2 numbers. Choosing 1, will execute a function 
+that would subtract 2 numbers, Choosing 2, will execute a function that would multiply 2 numbers.
+In this program instead os use of switch case, use function pointers.
+
+2) Make a structure and initialise its data variables by creating the object of the structure via pointers. 
+Create a 1-D array of this structure of index 2. And then print the values of data variables of the structure.
+
+
+3) Create the most optimized struct, which takes in command id, source, and acts as service parser for 3 commands.
+    Command  Id 1: Get key info 
+        Components: key length (32 bit number), key type (hexadecimal value for 8 bits), isprivate (have binary value)
+    Command Id 2: Get Current Status
+        Components: essential_core (binary value), core number (8 bit hexadecimal number)
+    Command Id 3: Suspend Application 
+          Components: application id (16 bit number), application type (4 bit number), priority (8 bit value)
+    At a given time only one command can be executed and values of rest command components must be NULL.
+    Also for each command it is necessary to fill all details.
